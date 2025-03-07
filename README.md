@@ -11,16 +11,13 @@
 
 - File Components:
   - dump_data.ipynb:
-    - A Jupyter Notebook script that handles the extraction and loading of raw data from a PostgreSQL database into a Python environment for further analysis. This script is the first step in the data pipeline.
-
+    - A Jupyter Notebook script that dumps raw CSV file records into a PostgreSQL database. This script handles the initial data loading process for further analysis.
   - Data_dump.pdf:
-    - A PDF version of the dump_data.ipynb notebook, providing a static reference for the data extraction and loading process.
-
-  - main_analysis/:
-    - A directory containing the primary analysis notebook(s) where multi-level SQL querying and data analysis are performed. This includes descriptive, predictive, and prescriptive analytics to derive actionable business insights.
-
+    - A PDF version of the dump_data.ipynb notebook, providing a static reference for the data loading process into PostgreSQL.
+  - main_analysis.ipynb:
+    - A Jupyter Notebook where the primary analysis is performed. This includes multi-level SQL querying and data analysis, covering descriptive, predictive, and prescriptive analytics to derive actionable business insights.
   - Analysis.pdf:
-    - A PDF version of the analysis notebook(s) from the main_analysis directory, offering a static view of the analytical process, visualizations, and insights.
+    - A PDF version of the main_analysis.ipynb notebook, offering a static view of the analytical process, visualizations, and insights.
 
 ### Analytical Queries Breakdown:
 - Descriptive Analytics:

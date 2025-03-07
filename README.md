@@ -9,6 +9,19 @@
   - SQL Querying in Python: Employing SQL queries in Python to perform various levels of analysis, from descriptive customer and sales metrics to predictive and prescriptive business insights.
   - Data Visualization: Visualizing key findings to enhance decision-making and provide stakeholders with clear insights.
 
+- File Components:
+  - dump_data.ipynb:
+    - A Jupyter Notebook script that handles the extraction and loading of raw data from a PostgreSQL database into a Python environment for further analysis. This script is the first step in the data pipeline.
+
+  - Data_dump.pdf:
+    - A PDF version of the dump_data.ipynb notebook, providing a static reference for the data extraction and loading process.
+
+  - main_analysis/:
+    - A directory containing the primary analysis notebook(s) where multi-level SQL querying and data analysis are performed. This includes descriptive, predictive, and prescriptive analytics to derive actionable business insights.
+
+  - Analysis.pdf:
+    - A PDF version of the analysis notebook(s) from the main_analysis directory, offering a static view of the analytical process, visualizations, and insights.
+
 ### Analytical Queries Breakdown:
 - Descriptive Analytics:
 
